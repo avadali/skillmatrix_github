@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<resources>
+<summary>
+<employees>
+<name>arun</name>
+<name>emp1</name>
+<name>emp2</name>
+<name>emp3</name>
+<name>emp4</name>
+</employees>
+<skills>
+<name>html</name>
+<name>javascript</name>
+<name>jquery</name>
+<name>ajax</name>
+<name>xml</name>
+</skills>
+<categories>
+<name>scripting</name>
+<name>markups</name>
+<name>datamarkup</name>
+<name>webservers</name>
+<name>appservers</name>
+</categories>
+<projects>
+<name>project1</name>
+<name>project2</name>
+<name>project3</name>
+<name>project4</name>
+<name>project5</name>
+</projects>
+<roles>
+<name>developer</name>
+<name>lead</name>
+<name>architect</name>
+<name>dba</name>
+<name>tester</name>
+</roles>
+</summary>
+<resource>
+<name>arun</name>
+<skills>
+  <skill>
+		<name>html</name>
+		<category>markups</category>
+		<rating>8</rating>		
+	</skill>
+	<skill>
+		<name>javascript</name>
+		<category>scripting</category>
+		<rating>8</rating>		
+	</skill>
+	<skill>
+		<name>jquery</name>
+		<category>scripting</category>
+		<rating>8</rating>		
+	</skill>
+</skills>
+<projects>
+	<project>
+		<name>project1</name>
+		<technology>html</technology>
+		<role>tester</role>		
+	</project>
+	<project>
+		<name>project2</name>
+		<technology>javascript</technology>
+		<role>developer</role>		
+	</project>
+	
+</projects>
+</resource>
+<resource>
+<name>emp1</name>
+<skills>
+	<skill>
+		<name>ajax</name>
+		<category>scripting</category>
+		<rating>7</rating>		
+	</skill>
+	<skill>
+		<name>xml</name>
+		<category>datamarkup</category>
+		<rating>6</rating>		
+	</skill>
+</skills>
+<projects>
+	<project>
+		<name>project1</name>
+		<technology>jquery</technology>
+		<role>developer</role>		
+	</project>
+	<project>
+		<name>project2</name>
+		<technology>ajax</technology>
+		<role>developer</role>		
+	</project>
+	
+</projects>
+</resource>
+
+</resources>
