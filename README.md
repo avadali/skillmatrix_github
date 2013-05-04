@@ -9,6 +9,7 @@ A project to find skills in an IT Organization.
 3. Create a folder WEB-INF in the folder.
 4. Copy the web.xml into it.
 5. Start tomcat and follow the document for the project.
+6. http://localhost:8080/skillmatrix/skills.xml
 
 Project Usage
 
