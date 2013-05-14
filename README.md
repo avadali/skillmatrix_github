@@ -33,7 +33,21 @@ Phase 2
 Design:
 Skill Matrix application will be integrated with SOLR search.
 
-Architecture
+Step 1:
+Create a simple csv file, let's call it emp_skills.csv.
+
+Make changes to schema.xml by adding the following fields:
+<!-- new fields for skill matrix -->   
+<field name="employee" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="skill" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="skill_category" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="rating" type="float" indexed="true" stored="true" omitNorms="true"/>   
+<!-- end changes -->
+
+Upload the csv file using the post.jar
+java -Dtype=text/csv -Dparams="separator=|" -jar post.jar emp*.csv
+
+*Note: seperator is not needed if we are using the default csv fortmat.
 
 
 Technologies: JAVA, JSP, SOLR.
