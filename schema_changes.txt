@@ -1,0 +1,6 @@
+<!-- new fields for skill matrix -->   
+<field name="employee" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="skill" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="skill_category" type="string" indexed="true" stored="true" omitNorms="true"/>
+<field name="rating" type="float" indexed="true" stored="true" omitNorms="true"/>   
+<!-- end changes -->
